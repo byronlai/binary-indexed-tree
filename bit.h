@@ -4,6 +4,7 @@
 struct bit {
     int *array;
     int count;
+    int mask;
 };
 
 void bit_init(struct bit *bit, int *array, int count);
